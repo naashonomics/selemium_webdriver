@@ -66,6 +66,7 @@ page_num = search_result_num/10
 
 url = chromedriver.current_url
 
+""" Traverse through mutiple pages """ 
 for page in range(1, page_num+1):
 
 	new_url = url + '&page_num={0}'.format(page)
